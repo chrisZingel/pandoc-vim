@@ -1,11 +1,11 @@
 #pandoc.txt  Create pdf  Within Vim
 
-### Author:  Chris Zingel ()
+### Author:  Chris Zingel [pandoc-vim][]
 ### License: Same terms as Vim itself
 
 ## Requirement
 
-- This requires Pandoc to be installed
+- This requires [Pandoc] to be installed
 - Also requires Vim with ruby enabled
 
 
@@ -40,12 +40,12 @@ For example:
 	 - New York, NY
 	...
 
-Note: This has been copied from  [pandoc- letter]: https://github.com/aaronwolen/pandoc-letter
+Note: This has been copied from [pandoc-letter][]
 
 
 For letter templated refer to
 [pandoc-vim]: https://github.com/chrisZingel/pandoc-vim
-[pandoc- letter]: https://github.com/aaronwolen/pandoc-letter
+[pandoc-letter]: https://github.com/aaronwolen/pandoc-letter
 [Pandoc]: http://johnmacfarlane.net/pandoc/
 [LaTeX]: http://www.latex-project.org/
 [latex-template]: https://github.com/jgm/pandoc-templates
