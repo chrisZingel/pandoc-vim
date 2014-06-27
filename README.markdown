@@ -1,4 +1,4 @@
-#pandoc.txt  Create pdf  Within Vim
+# Create pdf  within Vim using Pandoc
 
 ### Author:  [Chris Zingel][] 
 ### License: Same terms as Vim itself
@@ -17,7 +17,7 @@ the default locations for templates
 
 :Pandoc                 Create pdf and open pdf
 
-To use the letter template have all the markup files in a
+To use the letter template, have the  markup file in a
 directory called *letter*/ or contain *letter* ie
 dummy-letter-2014-6.md
 
