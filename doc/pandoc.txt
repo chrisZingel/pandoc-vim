@@ -10,3 +10,12 @@ COMMANDS:
 
 
 This requires pandoc to be installed 
+
+Copy the file template-letter.tex to ~/.pandoc/templates
+This file has been sourced from aaronwolen
+
+For letter templated refer to
+[pandoc- letter]: https://github.com/aaronwolen/pandoc-letter
+[Pandoc]: http://johnmacfarlane.net/pandoc/
+[LaTeX]: http://www.latex-project.org/
+[latex-template]: https://github.com/jgm/pandoc-templates

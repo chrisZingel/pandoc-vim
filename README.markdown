@@ -1,12 +1,51 @@
-#pandoc.txt  Create pdf and open within Vim
+#pandoc.txt  Create pdf  Within Vim
 
-##Author:  Chris Zingle
-##License: Same terms as Vim itself (see |license|)
+### Author:  Chris Zingel ()
+### License: Same terms as Vim itself
+
+## Requirement
+
+- This requires Pandoc to be installed
+- Also requires Vim with ruby enabled
 
 
-#COMMANDS:
+Copy the file template-letter.tex to ~/.pandoc/templates. This is
+the default locations for templates
+
+
+## COMMANDS:
 
 :Pandoc                 Create pdf and open pdf
 
+To use the letter template have all the markup files in a
+directory called *letter*/ or contain *letter* ie
+dummy-letter-2014-6.md
 
-This requires pandoc to be installed 
+## Using the template-letter.tex
+
+Requires the following YAML  metedata block.
+
+For example:
+
+	---
+	author: Aaron
+	opening: To whom it may concern,
+	closing: Sincerely,
+	address: 
+	 - 123 Street Rd
+	 - Chicago, IL
+	return-address: 
+	 - My Home
+	 - 456 Road St.
+	 - New York, NY
+	...
+
+Note: This has been copied from  [pandoc- letter]: https://github.com/aaronwolen/pandoc-letter
+
+
+For letter templated refer to
+[pandoc-vim]: https://github.com/chrisZingel/pandoc-vim
+[pandoc- letter]: https://github.com/aaronwolen/pandoc-letter
+[Pandoc]: http://johnmacfarlane.net/pandoc/
+[LaTeX]: http://www.latex-project.org/
+[latex-template]: https://github.com/jgm/pandoc-templates

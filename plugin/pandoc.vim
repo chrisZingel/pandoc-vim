@@ -30,9 +30,14 @@ ruby << EOF
 		end
 
     def genereate_pandoc_and_open
-      print("This can take a while ...")
+    if @file_name.match /letter/ 
+    print("A letter using template letter ...")
+      system("pandoc --template=template-letter.tex #{@file_name} -o #{@file_name}.pdf")
+    else
+    print("standard pandoc")
       system("pandoc -s  --number-sections  -f markdown #{@file_name} -o #{@file_name}.pdf")
-      system("open #{@file_name}.pdf")
     end
-	end
+    system("open #{@file_name}.pdf")
+  end
+end
 EOF
