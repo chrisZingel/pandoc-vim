@@ -1,7 +1,7 @@
 # Create pdf  within Vim using Pandoc
 
 ### Author:  [Chris Zingel][] 
-### License: Same terms as Vim itself
+#### License: Same terms as Vim itself
 
 ## Requirement
 
@@ -17,13 +17,13 @@ the default locations for templates
 
 :Pandoc                 Create pdf and open pdf
 
-To use the letter template, have the  markup file in a
+To use the letter template have the  markup file in a
 directory called *letter*/ or contain *letter* ie
-dummy-letter-2014-6.md
+dummy-*letter*-2014-6.md
 
 ## Using the template-letter.tex
 
-Requires the following YAML  metedata block.
+The markup file requires the following YAML  metedata block.
 
 For example:
 
@@ -41,7 +41,6 @@ For example:
 	...
 
 Note: This has been copied from [pandoc-letter][]
-
 
 [Chris Zingel]: http://zingtech.co.nz
 [pandoc-vim]: https://github.com/chrisZingel/pandoc-vim
