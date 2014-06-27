@@ -1,6 +1,6 @@
 #pandoc.txt  Create pdf  Within Vim
 
-### Author:  Chris Zingel [pandoc-vim][]
+### Author:  [Chris Zingel][] 
 ### License: Same terms as Vim itself
 
 ## Requirement
@@ -43,7 +43,7 @@ For example:
 Note: This has been copied from [pandoc-letter][]
 
 
-For letter templated refer to
+[Chris Zingel]: http://zingtech.co.nz
 [pandoc-vim]: https://github.com/chrisZingel/pandoc-vim
 [pandoc-letter]: https://github.com/aaronwolen/pandoc-letter
 [Pandoc]: http://johnmacfarlane.net/pandoc/
